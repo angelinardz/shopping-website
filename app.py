@@ -1,8 +1,7 @@
 
 from flask import Flask,render_template
 
-images=['https://legendary-space-train-977pj7qv9vgv2xq9v-5000.app.github.dev/static/dog1.png','https://legendary-space-train-977pj7qv9vgv2xq9v-5000.app.github.dev/static/dog2.jpg' ,
-        'https://legendary-space-train-977pj7qv9vgv2xq9v-5000.app.github.dev/static/dog3.jpg' ]
+images=['/static/dog1.png','/static/dog2.jpg' ,'/static/dog3.jpg' ]
 
 app= Flask(__name__)
 DOGS=[ 
