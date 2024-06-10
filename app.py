@@ -1,3 +1,4 @@
+
 from flask import Flask,render_template
 
 images=['https://legendary-space-train-977pj7qv9vgv2xq9v-5000.app.github.dev/static/dog1.png','https://legendary-space-train-977pj7qv9vgv2xq9v-5000.app.github.dev/static/dog2.jpg' ,
